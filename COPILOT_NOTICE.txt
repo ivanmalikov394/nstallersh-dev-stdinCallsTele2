@@ -1,0 +1,6 @@
+Этот репозиторий был обновлён с помощью GitHub Copilot (@copilot).
+
+Инициатор изменений: ivanmalikov394 — https://github.com/ivanmalikov394
+Ссылка на совместное демо/ресурс: https://github.com/copilot/share/807841b4-0220-8cc0-9951-aa0ea49208c3
+
+Дата: 2026-01-11
