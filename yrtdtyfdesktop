@@ -1,0 +1,23 @@
+ilaiv@ilaiv-x551ma:~$ git fetch
+git log origin/feature/calc-speedtest --oneline
+git log --oneline
+fatal: не найден git репозиторий (или один из родительских каталогов): .git
+fatal: не найден git репозиторий (или один из родительских каталогов): .git
+fatal: не найден git репозиторий (или один из родительских каталогов): .git
+ilaiv@ilaiv-x551ma:~$ git remote -v
+fatal: не найден git репозиторий (или один из родительских каталогов): .git
+ilaiv@ilaiv-x551ma:~$ cd ~/nstallersh-dev-stdinCallsTele2
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ git remote -v
+git branch --show-current
+git log --oneline
+origin	git@github.com:ivanmalikov394/nstallersh-dev-stdinCallsTele2.git (fetch)
+origin	git@github.com:ivanmalikov394/nstallersh-dev-stdinCallsTele2.git (push)
+feature/calc-speedtest
+880c6d9 (HEAD -> feature/calc-speedtest) auto: обновление файлов
+1e68467 auto: обновление файлов
+5ab5020 auto: обновление файлов
+920b2e8 (origin/feature/calc-speedtest) auto: обновление файлов
+faea378 Add Copilot notice and base requirements
+8f43cd5 (origin/main, origin/HEAD, main) Add files via upload
+0a03e40 Initial commit
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ 
