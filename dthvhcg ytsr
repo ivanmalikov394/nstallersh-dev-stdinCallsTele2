@@ -1,0 +1,57 @@
+ilaiv@ilaiv-x551ma:~$ git status
+fatal: не найден git репозиторий (или один из родительских каталогов): .git
+ilaiv@ilaiv-x551ma:~$ cd ~/nstallersh-dev-stdinCallsTele2
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ git status
+Текущая ветка: feature/calc-speedtest
+Эта ветка соответствует «origin/feature/calc-speedtest».
+
+Неотслеживаемые файлы:
+  (используйте «git add <файл>...», чтобы добавить в то, что будет включено в коммит)
+	2026 work
+	app.py
+	chernovoe.txt
+	dev-stdinCallsTele2.html
+
+индекс пуст, но есть неотслеживаемые файлы
+(используйте «git add», чтобы проиндексировать их)
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ sudo apt install inotify-tools
+[sudo] пароль для ilaiv: 
+Следующий пакет устанавливался автоматически и больше не требуется:
+  linux-image-6.12.48+deb13-amd64
+Для его удаления используйте «sudo apt autoremove».
+
+Установка:
+  inotify-tools
+
+Установка зависимостей:
+  libinotifytools0
+
+Сводка:
+  Обновление: 0, Установка: 2, Удаление: 0, Пропуск обновления: 0
+  Объём загрузки: 56,7 kB
+  Требуемое пространство: 233 kB / 213 GB доступно
+
+Продолжить? [Д/н] Y
+Пол:1 http://deb.debian.org/debian trixie/main amd64 libinotifytools0 amd64 4.23.9.0-2+b1 [23,1 kB]
+Пол:2 http://deb.debian.org/debian trixie/main amd64 inotify-tools amd64 4.23.9.0-2+b1 [33,6 kB]
+Получено 56,7 kB за 1с (53,8 kB/s)  
+Выбор ранее не выбранного пакета libinotifytools0:amd64.
+(Чтение базы данных … на данный момент установлено 121809 файлов и каталогов.)
+Подготовка к распаковке …/libinotifytools0_4.23.9.0-2+b1_amd64.deb …
+Распаковывается libinotifytools0:amd64 (4.23.9.0-2+b1) …
+Выбор ранее не выбранного пакета inotify-tools.
+Подготовка к распаковке …/inotify-tools_4.23.9.0-2+b1_amd64.deb …
+Распаковывается inotify-tools (4.23.9.0-2+b1) …
+Настраивается пакет libinotifytools0:amd64 (4.23.9.0-2+b1) …
+Настраивается пакет inotify-tools (4.23.9.0-2+b1) …
+Обрабатываются триггеры для man-db (2.13.1-1) …
+Обрабатываются триггеры для libc-bin (2.41-12+deb13u1) …
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ 
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ nano ~/nstallersh-dev-stdinCallsTele2/.git/autopush.sh
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ ^M
+bash: $'\r': команда не найдена
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ chmod +x ~/nstallersh-dev-stdinCallsTele2/.git/autopush.sh
+ilaiv@ilaiv-x551ma:~/nstallersh-dev-stdinCallsTele2$ bash ~/nstallersh-dev-stdinCallsTele2/.git/autopush.sh
+Setting up watches.  Beware: since -r was given, this may take a while!
+Watches established.
+
